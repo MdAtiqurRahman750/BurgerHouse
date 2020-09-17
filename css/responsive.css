@@ -1,0 +1,102 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.bg{
+		height:800px;
+	}
+	.nav-link{
+		font-size: 15px;
+	}
+		.banner h1{
+		font-size: 80px;
+	}
+	.banner h2{
+		font-size: 30px;
+		margin-top: 10px!important;
+	}
+	.banner-contents p{
+		font-size: 15px;
+		width: 300px;
+
+		margin:0 auto;
+	}
+.hero2{
+	margin-bottom: 10px;
+}
+	.hero-img{
+		margin: 20px 0;
+	}
+.serve{
+	margin-bottom: 30px;
+	}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.bg{
+		height:900px;
+	}
+	.banner h1{
+		font-size: 80px;
+	}
+	.banner h2{
+		font-size: 30px;
+		margin-top: 10px!important;
+	}
+	.banner-contents p{
+		font-size: 15px;
+		width:300px;
+		margin:0 auto;
+	}
+		.hero-img{
+		margin-bottom: 20px;
+	}
+	.serve{
+	margin-bottom: 30px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.burgur-house{
+		margin-top: -20px;
+	}
+	.bg{
+		height: 1200px;
+	}
+		.banner h1{
+		font-size: 120px;
+	}
+	.banner h2{
+		font-size: 30px;
+		margin-top: 10px!important;
+	}
+		.banner-contents p{
+		font-size: 20px;
+		width:350px;
+		margin:0 auto;
+	}	.hero-img{
+		margin-bottom: 20px;
+	}
+	.service-group{
+	margin-bottom: 33px;
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.service-group{
+	margin-bottom: 60px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#banner{
+		text-align: left!important;
+	}
+	.hero-img{
+		margin-bottom: 30px;
+	}
+	.service-group{
+	margin-bottom:55px;
+}
+}

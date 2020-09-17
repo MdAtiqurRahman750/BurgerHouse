@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+font-family: 'Bebas Neue', cursive;
+@font-face{
+	font-family:BebasNeue Bold;
+
+	src:url(../font/bebasNune/BebasNeue Bold.otf);
+}
+@font-face{
+	font-family: BebasNeue Regular;
+	src:url(../font/bebasNune/BebasNeue Regular.otf);
+}
+.bg{
+background-image: url(../image/bg.jpg);
+	min-height: 900px;
+}
+.tel{
+	color:#3d2514;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+
+}
+.navbar{
+	padding: 20px 0px!important;
+}
+.nav-link{
+	padding: 5px!important;
+	color:#3d2514!important;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 700;
+
+
+	margin-left: 30px;
+}
+.banner{
+	padding:50px 0!important;
+}
+.banner-contents p{
+	font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+	font-size: 25px;
+	text-transform: uppercase;
+	border: 2px dashed #3d2514;
+	padding: 10px;
+	width: 417px;
+	box-sizing: border-box;
+}
+.banner h1,h2{
+	font-size: 140px;
+	padding: 0px 0!important;
+	margin:0px!important;
+	font-family: 'Alfa Slab One', sans-serif;
+	font-weight: 400;
+	  text-shadow: 3.936px 4.528px 0px #fee8bb;
+
+
+}
+.banner h2{
+	font-size: 50px;
+ text-shadow:0.936px 3.528px 0px #fee8bb;
+ margin-top: 20px!important;
+}
+.hero,.hero2{
+	margin: 70px 0px!important;
+}
+
+.hero2 .burgur1 h4{
+font-size: 20px;
+font-weight: 700;
+padding: 5px;
+text-transform: uppercase;
+color:#3d2514; 
+background-color: #ffc045;
+}
+.hero2 .burgur1 h1,.serve h3{
+	font-size: 40px;
+font-weight: 700;
+padding: 30px 0;
+text-transform: uppercase;
+color:#3d2514;
+font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+}
+.hero2 .burgur1 h1{
+	font-family: 'Alfa Slab One', cursive;
+		font-weight: 400;
+}
+.hero2 .burgur1 h4{
+	
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+}
+.hero2 .burgur1 p{
+	font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+
+color:#3d2514!important; 
+}
+.serve{
+	color:#3d2514!important; 
+}
+.serve h3{
+	padding: 0px;
+	font-size: 30px;
+}
+.serve button{
+	color:#fff;
+	background-color:#bf2222!important; 
+	border: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Alfa Slab One', cursive;
+		font-weight: 400;
+}
+}
